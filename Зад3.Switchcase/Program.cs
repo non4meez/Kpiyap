@@ -10,9 +10,11 @@ namespace Зад3.Switchcase
     {
         static void Main(string[] args)
         {
-            int x = 8;
-            bool z = (5 < 6) & (x % 2 == 0);
-            Console.WriteLine(z);
+            string name;
+            Console.WriteLine("Enter your name: ");
+            name = Console.ReadLine();
+            Console.WriteLine("Hello {0}", name);
+            Console.ReadLine();
         }
     }
 }
